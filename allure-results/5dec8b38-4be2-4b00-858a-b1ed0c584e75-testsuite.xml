@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666093098343' stop='1666093115569'>
+    <name>TestScript_04</name>
+    <title>TestScript_04</title>
+    <test-cases>
+        <test-case start='1666093098354' status='passed' stop='1666093099862'>
+            <name>login as a Admin </name>
+            <title>login as a Admin </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666093099868' status='passed' stop='1666093104300'>
+            <name>Adding Menu Details</name>
+            <title>Adding Menu Details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666093104305' status='broken' stop='1666093115559'>
+            <name>ReUpdating The MenuDetails</name>
+            <title>ReUpdating The MenuDetails</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='3af185ca-753f-4efd-b9ee-a6e5a84db7f0-attachment.mp4' type='video/mp4' size='132'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//td[text()='Indian Resturant']//ancestor::tr[@role='row']/descendant::i[@class='fa fa-edit']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//td[text()='Indian Resturant']//ancestor::tr[@role='row']/descendant::i[@class='fa fa-edit']" because element wasn't found
+                    at implicitWait (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\test\specs\AddMenuDetailsANDREupdateTheMenuDetails.js:31:1)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

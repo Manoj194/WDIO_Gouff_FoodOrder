@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666161884223' stop='1666161910712'>
+    <name>TestScript_03</name>
+    <title>TestScript_03</title>
+    <test-cases>
+        <test-case start='1666161884225' status='passed' stop='1666161884730'>
+            <name>URL lanching</name>
+            <title>URL lanching</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666161884730' status='passed' stop='1666161886484'>
+            <name>Login</name>
+            <title>Login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666161886486' status='broken' stop='1666161887784'>
+            <name>Resturant Module</name>
+            <title>Resturant Module</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2c92ae06-609d-4920-8642-06c0f3c5685b-attachment.png' type='image/png' size='368906'/>
+            </attachments>
+            <failure>
+                <message>no such alert
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such alert: no such alert
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\test\specs\PlaceTheOrderAndUpdateTheOrderStatus.js:30:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666161887784' status='broken' stop='1666161910712'>
+            <name>Admin Login</name>
+            <title>Admin Login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4ab3d6fb-b83c-4fe6-b3cb-3f2f52fdb368-attachment.png' type='image/png' size='30668'/>
+                <attachment title='Screenshot' source='b456b679-f272-4a11-9805-4629dc1a4ae8-attachment.png' type='image/png' size='179454'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//td[text()='manojbh']//ancestor::tr/descendant::a[@href='view_order.php?user_upd=99']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//td[text()='manojbh']//ancestor::tr/descendant::a[@href='view_order.php?user_upd=99']" because element wasn't found
+                    at implicitWait (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\SDET_40WebdriverIO\test\specs\PlaceTheOrderAndUpdateTheOrderStatus.js:48:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

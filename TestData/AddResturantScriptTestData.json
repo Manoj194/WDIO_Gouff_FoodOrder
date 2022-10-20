@@ -1,0 +1,15 @@
+[
+    {
+    "ResturantName":"Indian Resturant",
+    "MobNumb":"9535790978",
+    "EmailID":"manuvirat772@gmail.com",
+    "WebSiteURL":"WWW.Resturant.com",
+    "OpenHours":"10am",
+    "CloseHours":"6pm",
+    "OpenDays":"Mon-Fri",
+    "SelectCategory":"American",
+    "ResturantAddress":"Bangalore"
+
+
+    }
+]
